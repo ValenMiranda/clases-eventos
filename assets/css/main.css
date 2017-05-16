@@ -1,0 +1,30 @@
+body{
+	background-color: indigo;
+	font-family: 'Roboto', sans-serif;
+	color: whitesmoke;
+}
+
+#menu-principal{
+	width: 80%;
+	margin: 0 auto;
+	background-color: whitesmoke;
+}
+
+#menu-principal ul{
+	list-style: none; /* quitar los puntos de la lista*/
+	padding-left: 0;
+}
+
+#menu-principal li{
+	display: inline;
+}
+
+#menu-principal ul li a{
+	text-decoration: none; /*sacar linea debajo del texto menu en la a*/
+	color: #505050;
+	padding:  10px 68px;
+}
+
+input[name="mi-input"]{
+	border: 5px solid red;
+}
